@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.87
+Version:	1.105
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,97 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Aug 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.105-1
+- update copr keys
+- add fedora 43 keys and change rawhide symlink
+- Refresh GPG keys for Dell
+
+* Wed Jun 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.104-1
+- update copr keys
+- Add RPM-GPG-KEY-CentOS-Official-SHA256
+
+* Mon Jun 03 2024 Miroslav Suchý <msuchy@redhat.com> 1.103-1
+- update copr keys
+- add FFmpeg, LibreWolf, Monero, VideoLAN, and yt-dlp keys
+- Add CentOS 10 and EPEL 10 GPG keys
+- add Alpine Linux and postmarketOS keys
+
+* Fri Mar 08 2024 Miroslav Suchý <msuchy@redhat.com> 1.102-1
+- update copr keys
+- Create cathugger.asc
+- Create zzz.key.asc
+- Create idk.key.asc
+- Create hulahoop.asc
+- Create adrelanos.asc
+- Create makemkv_pub.txt
+
+* Wed Feb 14 2024 Miroslav Suchý <msuchy@redhat.com>
+- add F42 key and move rawhide link
+- update copr keys
+- update postgresql keys
+
+* Tue Jan 09 2024 Miroslav Suchý <msuchy@redhat.com> 1.100-1
+- update copr keys
+- Add remi 2024 Key
+
+* Thu Dec 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.99-1
+- update copr keys
+- Add Qubes OS 4.2 release key
+- Split AlmaLinux OS 8 GPG public keys to fix microdnf
+- Update AlmaLinux OS 8 public key
+
+* Thu Oct 12 2023 Miroslav Suchý <msuchy@redhat.com> 1.98-1
+- update copr keys
+- Add openSUSE Backports 2023 key
+- Update Amazon Linux 2023 public key
+
+* Tue Sep 19 2023 Miroslav Suchý <msuchy@redhat.com> 1.97-1
+- update copr keys
+- add script to check all keys
+- remove expired jenkins key
+- update expired intel security key
+- update expired navy linux key
+- update expired bluejeans key
+- add script to check expiration
+- Add the key for pkgs.k8s.io (Kubernetes)
+
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.96-1
+- Restructure openSUSE GPG keys
+
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.95-1
+- new release to test new release process 
+
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.94-1
+- new release because testing new release process 
+
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.93-1
+- Add SUSE ALP signing keys
+- Add SLE 2023 signing keys
+
+* Mon Sep 04 2023 Miroslav Suchý <msuchy@redhat.com> 1.92-1
+- add symlinkg to rpmfusion 40 and 41
+- update copr keys
+- add remi fedora 39 link to 2023 key
+
+* Thu Aug 10 2023 Miroslav Suchý <msuchy@redhat.com> 1.91-1
+- update Google key
+
+* Thu Aug 10 2023 Miroslav Suchý <msuchy@redhat.com> 1.90-1
+- add Fedora 41 key
+- Add source URL for AL2023
+- update copr keys
+
+* Fri Jun 16 2023 Pavel Raiskup <praiskup@redhat.com> 1.89-1
+- Update expired RPM-GPG-KEY-Mageia key
+- Add keys for Azure Linux
+
+* Sun May 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.88-1
+- update copr keys
+- add per distro/version link to proper key for remi
+- update brave keys
+- add Docker key
+- add mullvad key
+
 * Wed Apr 26 2023 Miroslav Suchý <msuchy@redhat.com> 1.87-1
 - update copr keys
 - update virtualbox key

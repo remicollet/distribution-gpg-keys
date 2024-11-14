@@ -2,19 +2,28 @@
 
 # Distributions
 
-## Anolis OS
-
-https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
-
 ## Alma Linux
 
 https://repo.almalinux.org/almalinux/
 
+## Alpine Linux
+
+https://git.alpinelinux.org/aports/tree/main/alpine-keys
+
 ## Amazon Linux
 
-https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
+- AL2: https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
+- AL2023: https://cdn.amazonlinux.com/_assets/E951904AD832C631.asc
 
-AL2022 extracted from https://al2022-repos-us-west-2-9761ab97.s3.dualstack.us-west-2.amazonaws.com/blobstore/7e0773f1ec72808c44fc3c0ed5582f8046f03478205c93975893763d3238431c/system-release-2022.0.20220728-0.amzn2022.noarch.rpm
+## Anolis OS
+
+https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+
+## Azure Linux/CBL-Mariner
+
+https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-RPM-GPG-KEY
+
+https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-METADATA-GPG-KEY
 
 ## Centos keys
 
@@ -27,6 +36,12 @@ https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 ## Fedora & Epel keys
 
 https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
+
+## Kicksecure & Whonix keys
+
+https://www.kicksecure.com/keys/adrelanos.asc
+
+https://www.kicksecure.com/keys/hulahoop.asc
 
 ## Mageia
 
@@ -52,10 +67,6 @@ see bottom of https://yum.oracle.com/faq.html
 
 https://keys.qubes-os.org/keys/
 
-## RosaLinux
-
-https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
-
 ## Rocky Linux
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8
@@ -68,6 +79,10 @@ https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9-Testing
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyinfra
 
+## RosaLinux
+
+https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
+
 ## EuroLinux
 
 https://euro-linux.com/product-signing-keys/
@@ -78,13 +93,17 @@ https://access.redhat.com/security/team/key
 
 ## Navy Linux
 
-https://cdn.navylinux.org/RPM-GPG-KEY-navy-linux-official
+https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
 
 ## openSUSE
 
 https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
 https://build.opensuse.org/projects/openSUSE:Backports/public_key
+
+## postmarketOS
+
+https://gitlab.com/postmarketOS/pmaports/-/tree/master/main/postmarketos-keys
 
 ## Scientific Linux
 
@@ -137,7 +156,7 @@ https://cpkg.datto.com/DATTO-LEGACYDIST-PKGS-GPG-KEY
 
 ## Dell
 
-http://linux.dell.com/repo/hardware/dsu/public.key
+https://linux.dell.com/files/pgp_pubkeys/
 
 ## Docker
 
@@ -157,6 +176,10 @@ https://artifacts.elastic.co/GPG-KEY-elasticsearch
 
 https://packages.element.io/
 
+## FFmpeg
+
+https://ffmpeg.org/ffmpeg-devel.asc
+
 ## Google
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
@@ -166,6 +189,12 @@ https://dl-ssl.google.com/linux/linux_signing_key.pub
 https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+
+## I2P
+
+https://geti2p.net/_static/idk.key.asc
+
+https://geti2p.net/_static/zzz.key.asc
 
 ## IUS
 
@@ -191,6 +220,20 @@ https://kohsuke.org/about/pgp/ (used by pre-2020 releases, see https://www.jenki
 
 http://www.jpackage.org/jpackage.asc
 
+## Kubernetes
+
+https://pkgs.k8s.io/core:/stable:/v1.28/rpm/repodata/repomd.xml.key
+
+https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/
+
+## LibreWolf
+
+https://rpm.librewolf.net/pubkey.gpg
+
+## MakeMKV
+
+https://www.makemkv.com/makemkv_pub.txt
+
 ## MariaDB
 
 https://mariadb.org/download/
@@ -198,6 +241,14 @@ https://mariadb.org/download/
 ## Microsoft
 
 https://packages.microsoft.com/keys/microsoft.asc
+
+## mkp224o
+
+https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
+
+## Monero
+
+https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/binaryfate.asc
 
 ## Mullvad
 
@@ -259,9 +310,17 @@ https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-
 
 https://www.veracrypt.fr/en/Digital%20Signatures.html#VerifyPGPSignature
 
+## VideoLAN
+
+https://download.videolan.org/pub/keys/7180713BE58D1ADC.asc
+
 ## VirtualBox
 
 https://www.virtualbox.org/download/oracle_vbox.asc
+
+## yt-dlp
+
+https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/public.key
 
 ## Zimbra
 
